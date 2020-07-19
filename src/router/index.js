@@ -15,17 +15,17 @@ const routes = [
       {
         path: 'page1',
         name: 'Page1',
-        component: () => import(/* webpackChunkName: "home-page1" */ '../pages/Page1.vue')
+        component: () => import(/* webpackChunkName: "page" */ '../pages/Page1.vue')
       },
       {
         path: 'page2',
         name: 'Page2',
-        component: () => import(/* webpackChunkName: "home-page2" */ '../pages/Page2.vue')
+        component: () => import(/* webpackChunkName: "page" */ '../pages/Page2.vue')
       },
       {
         path: 'detail',
         name: 'Detail',
-        component: () => import(/* webpackChunkName: "home-detail" */ '../pages/Detail.vue')
+        component: () => import(/* webpackChunkName: "page" */ '../pages/Detail.vue')
       }
     ]
   },
